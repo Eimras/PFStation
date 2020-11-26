@@ -342,8 +342,10 @@
 /obj/item/weapon/disk/integrated_circuit/upgrade/advanced
 	name = "integrated circuit printer upgrade disk - advanced designs"
 	desc = "Install this into your integrated circuit printer to enhance it.  This one adds new, advanced designs to the printer."
+	origin_tech = list(TECH_ENGINEERING = 3, TECH_DATA = 4)
 
 /obj/item/weapon/disk/integrated_circuit/upgrade/clone
 	name = "integrated circuit printer upgrade disk - instant cloner"
 	desc = "Install this into your integrated circuit printer to enhance it.  This one allows the printer to duplicate assemblies instantaneously."
 	icon_state = "upgrade_disk_clone"
+	origin_tech = list(TECH_ENGINEERING = 4, TECH_DATA = 5)
