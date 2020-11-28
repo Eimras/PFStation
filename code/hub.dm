@@ -2,7 +2,7 @@
 
 	hub = "Exadv1.spacestation13"
 	//hub_password = "SORRYNOPASSWORD"
-	hub_password = "kMZy3U5jJHSiBQjr"
+	hub_password = "kMZy3U5jJHSiBQjr1" //added a 1
 	name = "PhoenixFire Station" //VOREStation Edit
 	visibility = 0 //VOREStation Edit
 
