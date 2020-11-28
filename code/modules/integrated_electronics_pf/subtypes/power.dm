@@ -32,6 +32,7 @@
 	transmission circuit in its own assembly and other nearby ones."
 	w_class = ITEMSIZE_LARGE
 	complexity = 32
+	origin_tech = list(TECH_ENGINEERING = 4, TECH_DATA = 4, TECH_POWER = 6, TECH_MAGNET = 5)
 	power_draw_per_use = 2000
 	amount_to_move = 20000
 

@@ -130,7 +130,6 @@
 	set_pin_data(IC_OUTPUT, 2, weakref(src))
 	push_data()
 
-/*
 
 /obj/item/integrated_circuit/passive/power/powernet
 	name = "power network interface"
@@ -204,4 +203,3 @@
 	C.powernet.add_machine(src)
 	return TRUE
 
-	*/

@@ -2309,7 +2309,6 @@
 #include "code\modules\integrated_electronics_pf\core\printer.dm"
 #include "code\modules\integrated_electronics_pf\core\saved_circuits.dm"
 #include "code\modules\integrated_electronics_pf\core\wirer.dm"
-#include "code\modules\integrated_electronics_pf\core\assemblies\clothing.dm"
 #include "code\modules\integrated_electronics_pf\core\assemblies\implant.dm"
 #include "code\modules\integrated_electronics_pf\core\prefab\prefab.dm"
 #include "code\modules\integrated_electronics_pf\core\prefab\prefabs.dm"
