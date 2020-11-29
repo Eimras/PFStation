@@ -15213,19 +15213,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/engineering/engineering_monitoring)
-"aCc" = (
-/obj/structure/table/reinforced,
-/obj/item/weapon/rcd,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/item/weapon/rcd_ammo,
-/obj/machinery/light_switch{
-	pixel_x = -22;
-	pixel_y = 22
-	},
-/turf/simulated/floor/tiled,
-/area/crew_quarters/heads/chief)
 "aCd" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -20774,12 +20761,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/heads/chief)
-"bYK" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/heads/chief)
 "bYN" = (
 /obj/item/device/instrument/violin,
 /turf/simulated/floor,
@@ -22010,6 +21991,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tether/station/dock_one)
+"iDl" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/rcd,
+/obj/item/weapon/rcd_ammo,
+/obj/item/weapon/rcd_ammo,
+/obj/item/weapon/rcd_ammo,
+/obj/item/weapon/rcd_ammo,
+/obj/machinery/light_switch{
+	pixel_x = -22;
+	pixel_y = 22
+	},
+/obj/item/weapon/pipe_dispenser,
+/turf/simulated/floor/tiled,
+/area/crew_quarters/heads/chief)
 "iIr" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -22505,6 +22500,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/engineering/hallway)
+"lxZ" = (
+/obj/effect/floor_decal/corner_techfloor_grid{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner_techfloor_grid{
+	dir = 10
+	},
+/obj/structure/ghost_pod/ghost_activated/pokemon,
+/turf/simulated/floor/tiled/techfloor,
+/area/crew_quarters/sleep/cryo)
 "lzl" = (
 /obj/machinery/access_button{
 	command = "cycle_interior";
@@ -22980,6 +22985,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/gateway/prep_room)
+"oSF" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 6
+	},
+/obj/machinery/power/shield_generator,
+/turf/simulated/floor/tiled/techfloor,
+/area/crew_quarters/heads/chief)
 "oTn" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -29379,7 +29391,7 @@ aSC
 bds
 aLA
 agc
-aCc
+iDl
 aRV
 bcp
 bfv
@@ -29528,7 +29540,7 @@ aRX
 aVz
 aRb
 bYg
-bYK
+oSF
 aRb
 bZv
 bZv
@@ -38475,7 +38487,7 @@ asO
 asO
 asI
 avc
-avc
+lxZ
 asI
 bhJ
 aus

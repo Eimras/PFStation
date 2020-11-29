@@ -39055,6 +39055,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/tether/surfacebase/security/upperhall)
+"lzA" = (
+/obj/structure/railing,
+/turf/simulated/open,
+/area/tether/surfacebase/medical/admin)
 "lAW" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -57102,7 +57106,7 @@ aUJ
 aSS
 bjQ
 bka
-bkb
+lzA
 yjx
 ffg
 apS
@@ -57244,7 +57248,7 @@ aUK
 aSS
 bjR
 bka
-bkb
+lzA
 bkh
 aSn
 anm

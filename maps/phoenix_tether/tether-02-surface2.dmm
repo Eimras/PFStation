@@ -1081,6 +1081,14 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/cable/green{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -28
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/lower/public_garden_maintenence/upper)
 "abY" = (
@@ -13092,29 +13100,6 @@
 /obj/effect/floor_decal/corner/yellow/border,
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
-/turf/simulated/floor/tiled,
-/area/engineering/lower/atmos_lockers)
-"axX" = (
-/obj/effect/floor_decal/borderfloor{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/yellow/border{
-	dir = 6;
-	icon_state = "bordercolor"
-	},
-/obj/effect/floor_decal/borderfloor/corner2{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner2{
-	dir = 6;
-	icon_state = "bordercolorcorner2"
-	},
-/obj/structure/table/standard,
-/obj/item/clothing/gloves/black,
-/obj/item/clothing/gloves/black,
-/obj/item/weapon/storage/belt/utility/atmostech,
-/obj/item/weapon/cartridge/atmos,
-/obj/item/device/floor_painter,
 /turf/simulated/floor/tiled,
 /area/engineering/lower/atmos_lockers)
 "axY" = (
@@ -34383,6 +34368,30 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/tether/surfacebase/security/armory)
+"ung" = (
+/obj/effect/floor_decal/borderfloor{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/yellow/border{
+	dir = 6;
+	icon_state = "bordercolor"
+	},
+/obj/effect/floor_decal/borderfloor/corner2{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner2{
+	dir = 6;
+	icon_state = "bordercolorcorner2"
+	},
+/obj/structure/table/standard,
+/obj/item/clothing/gloves/black,
+/obj/item/clothing/gloves/black,
+/obj/item/weapon/storage/belt/utility/atmostech,
+/obj/item/weapon/cartridge/atmos,
+/obj/item/device/floor_painter,
+/obj/item/weapon/pipe_dispenser,
+/turf/simulated/floor/tiled,
+/area/engineering/lower/atmos_lockers)
 "unp" = (
 /obj/structure/table/standard,
 /obj/item/device/sleevemate,
@@ -46052,7 +46061,7 @@ avc
 avF
 aww
 axk
-axX
+ung
 avG
 azu
 aAo

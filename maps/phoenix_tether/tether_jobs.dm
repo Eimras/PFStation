@@ -1,5 +1,6 @@
 ///////////////////////////////////
 //// Talon Jobs
+
 /datum/department/talon
 	name = DEPARTMENT_TALON
 	short_name = "Talon"
