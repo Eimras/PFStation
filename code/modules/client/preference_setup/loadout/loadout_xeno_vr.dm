@@ -124,7 +124,7 @@
 	allowed_roles = list("Head of Personnel")
 
 //Added to allow selection of alternate job undercoats.
-./datum/gear/uniform/dept/undercoat/ce/New()
+/datum/gear/uniform/dept/undercoat/ce/New()
 	..()
 	var/list/undercoats = list()
 	for(var/undercoat in typesof(path))

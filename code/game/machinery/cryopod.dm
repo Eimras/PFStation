@@ -95,7 +95,7 @@
 	data["real_name"] = user.real_name
 	data["allow_items"] = allow_items
 	data["crew"] = frozen_crew
-	
+
 	data["items"] = list()
 	if(allow_items)
 		for(var/F in frozen_items)
@@ -467,14 +467,16 @@
 	//VOREStation Edit End - Resleeving.
 
 	//Handle job slot/tater cleanup.
-	var/job = to_despawn.mind.assigned_role
+	//lukevale -edit start
+	if(to_despawn.mind)
+		var/job = to_despawn.mind.assigned_role
 
-	job_master.FreeRole(job)
+		job_master.FreeRole(job)
 
-	if(to_despawn.mind.objectives.len)
-		qdel(to_despawn.mind.objectives)
-		to_despawn.mind.special_role = null
-
+		if(to_despawn.mind.objectives.len)
+			qdel(to_despawn.mind.objectives)
+			to_despawn.mind.special_role = null
+	//lukevale -edit end
 	//else
 		//if(ticker.mode.name == "AutoTraitor")
 			//var/datum/game_mode/traitor/autotraitor/current_mode = ticker.mode
@@ -499,14 +501,20 @@
 	//TODO: Check objectives/mode, update new targets if this mob is the target, spawn new antags?
 
 
-	//Make an announcement and log the person entering storage.
-	control_computer.frozen_crew += "[to_despawn.real_name], [to_despawn.mind.role_alt_title] - [stationtime2text()]"
-	control_computer._admin_logs += "[key_name(to_despawn)] ([to_despawn.mind.role_alt_title]) at [stationtime2text()]"
-	log_and_message_admins("[key_name(to_despawn)] ([to_despawn.mind.role_alt_title]) entered cryostorage.")
+	//ARFS EDIT
+	if(!ishuman(to_despawn))//Don't log non-humans into the database
+		announce.autosay("[to_despawn.name] [on_store_message]", "[on_store_name]", announce_channel, using_map.get_map_levels(z, TRUE))
+		visible_message("<span class='notice'>\The [initial(name)] [on_store_visible_message_1] [to_despawn.name] [on_store_visible_message_2].</span>", 3)
+		log_and_message_admins("[key_name(to_despawn)] ([to_despawn.type]) entered cryostorage.")
+	else
+		//Make an announcement and log the person entering storage.
+		control_computer.frozen_crew += "[to_despawn.real_name], [to_despawn.mind.role_alt_title] - [stationtime2text()]"
+		control_computer._admin_logs += "[key_name(to_despawn)] ([to_despawn.mind.role_alt_title]) at [stationtime2text()]"
+		log_and_message_admins("[key_name(to_despawn)] ([to_despawn.mind.role_alt_title]) entered cryostorage.")
 
-	announce.autosay("[to_despawn.real_name], [to_despawn.mind.role_alt_title], [on_store_message]", "[on_store_name]", announce_channel, using_map.get_map_levels(z, TRUE, om_range = DEFAULT_OVERMAP_RANGE))
-	//visible_message("<span class='notice'>\The [initial(name)] hums and hisses as it moves [to_despawn.real_name] into storage.</span>", 3)
-	visible_message("<span class='notice'>\The [initial(name)] [on_store_visible_message_1] [to_despawn.real_name] [on_store_visible_message_2]</span>", 3)
+		announce.autosay("[to_despawn.real_name], [to_despawn.mind.role_alt_title], [on_store_message]", "[on_store_name]", announce_channel, using_map.get_map_levels(z, TRUE, om_range = DEFAULT_OVERMAP_RANGE))
+		//visible_message("<span class='notice'>\The [initial(name)] hums and hisses as it moves [to_despawn.real_name] into storage.</span>", 3)
+		visible_message("<span class='notice'>\The [initial(name)] [on_store_visible_message_1] [to_despawn.real_name] [on_store_visible_message_2]</span>", 3)
 
 	//VOREStation Edit begin: Dont delete mobs-in-mobs
 	if(to_despawn.client && to_despawn.stat<2)
