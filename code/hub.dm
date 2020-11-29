@@ -2,8 +2,8 @@
 
 	hub = "Exadv1.spacestation13"
 	//hub_password = "SORRYNOPASSWORD"
-	hub_password = "kMZy3U5jJHSiBQjr"
-	name = "VOREStation" //VOREStation Edit
+	hub_password = "kMZy3U5jJHSiBQjr1" //added a 1
+	name = "PhoenixFire Station" //VOREStation Edit
 	visibility = 0 //VOREStation Edit
 
 /* This is for any host that would like their server to appear on the main SS13 hub.

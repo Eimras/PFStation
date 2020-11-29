@@ -22,6 +22,15 @@
 	build_path = /obj/item/weapon/disk/integrated_circuit/upgrade/advanced
 	sort_string = "UBAAA"
 
+/datum/design/item/integrated_circuitry/custom_circuit_printer_upgrade_clone
+	name = "Integrated circuit printer upgrade - Cloning Upgrade"
+	desc = "Allows the integrated circuit printer to create cloned circuits"
+	id = "ic_printer_upgrade_cln"
+	req_tech = list(TECH_ENGINEERING = 4, TECH_DATA = 5)
+	materials = list(DEFAULT_WALL_MATERIAL = 2000)
+	build_path = /obj/item/weapon/disk/integrated_circuit/upgrade/clone
+	sort_string = "UBAAB"
+
 /datum/design/item/integrated_circuitry/wirer
 	name = "Custom wirer tool"
 	id = "wirer"
