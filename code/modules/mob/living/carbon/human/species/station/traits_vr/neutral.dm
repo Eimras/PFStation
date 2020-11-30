@@ -18,21 +18,21 @@
 	cost = 0
 	var_changes = list("metabolic_rate" = 1.4, "hunger_factor" = 0.4, "metabolism" = 0.012) // +40% rate and 8x hunger (Double Teshari)
 	excludes = list(/datum/trait/metabolism_up, /datum/trait/metabolism_down)
-
+/* disabling cold adapted and head adapted
 /datum/trait/coldadapt
 	name = "Cold-Adapted"
 	desc = "You are able to withstand much colder temperatures than other species, and can even be comfortable in extremely cold environments. You are also more vulnerable to hot environments, and have a lower body temperature as a consequence of these adaptations."
 	cost = 0
 	var_changes = list("cold_level_1" = 200,  "cold_level_2" = 150, "cold_level_3" = 90, "breath_cold_level_1" = 180, "breath_cold_level_2" = 100, "breath_cold_level_3" = 60, "cold_discomfort_level" = 210, "heat_level_1" = 305, "heat_level_2" = 360, "heat_level_3" = 700, "breath_heat_level_1" = 345, "breath_heat_level_2" = 380, "breath_heat_level_3" = 780, "heat_discomfort_level" = 295, "body_temperature" = 290)
 	excludes = list(/datum/trait/hotadapt)
-	
+
 /datum/trait/hotadapt
 	name = "Heat-Adapted"
 	desc = "You are able to withstand much hotter temperatures than other species, and can even be comfortable in extremely hot environments. You are also more vulnerable to cold environments, and have a higher body temperature as a consequence of these adaptations."
 	cost = 0
 	var_changes = list("heat_level_1" = 420, "heat_level_2" = 460, "heat_level_3" = 1100, "breath_heat_level_1" = 440, "breath_heat_level_2" = 510, "breath_heat_level_3" = 1500, "heat_discomfort_level" = 390, "cold_level_1" = 280, "cold_level_2" = 220, "cold_level_3" = 140, "breath_cold_level_1" = 260, "breath_cold_level_2" = 240, "breath_cold_level_3" = 120, "cold_discomfort_level" = 280, "body_temperature" = 330)
 	excludes = list(/datum/trait/coldadapt)
-
+*/
 /datum/trait/autohiss_unathi
 	name = "Autohiss (Unathi)"
 	desc = "You roll your S's and x's"
@@ -139,7 +139,7 @@
 	desc = "Spicy (and chilly) peppers are three times as strong. (This does not affect pepperspray.)"
 	cost = 0
 	var_changes = list("spice_mod" = 3) // 300% as effective if spice_mod is set to 1. If it's not 1 in species.dm, update this!
-	
+
 /datum/trait/spice_intolerance_basic
 	name = "Heavy Spice Intolerance"
 	desc = "Spicy (and chilly) peppers are twice as strong. (This does not affect pepperspray.)"
@@ -157,7 +157,7 @@
 	desc = "Spicy (and chilly) peppers are only three-quarters as strong. (This does not affect pepperspray.)"
 	cost = 0
 	var_changes = list("spice_mod" = 0.75) // 75% as effective if spice_mod is set to 1. If it's not 1 in species.dm, update this!
-	
+
 /datum/trait/spice_tolerance_advanced
 	name = "Strong Spice Tolerance"
 	desc = "Spicy (and chilly) peppers are only half as strong. (This does not affect pepperspray.)"
@@ -170,6 +170,7 @@
 	cost = 0
 	var_changes = list("spice_mod" = 0.25) // 25% as effective if spice_mod is set to 1. If it's not 1 in species.dm, update this!
 
+/*
 // Alcohol Traits Start Here, from negative to positive.
 /datum/trait/alcohol_intolerance_advanced
 	name = "Liver of Air"
@@ -194,7 +195,7 @@
 	desc = "You can hold drinks much better than those lily-livered land-lubbers! Arr! Drinks are only three-quarters as strong."
 	cost = 0
 	var_changes = list("alcohol_mod" = 0.75) // 75% as effective if alcohol_mod is set to 1. If it's not 1 in species.dm, update this!
-	
+
 /datum/trait/alcohol_tolerance_advanced
 	name = "Liver of Steel"
 	desc = "Drinks tremble before your might! You can hold your alcohol twice as well as those blue-bellied barnacle boilers! Drinks are only half as strong."
@@ -207,3 +208,6 @@
 	cost = 0
 	var_changes = list("alcohol_mod" = 0.25) // 25% as effective if alcohol_mod is set to 1. If it's not 1 in species.dm, update this!
 // Alcohol Traits End Here.
+
+commented out because we got our own
+*/
