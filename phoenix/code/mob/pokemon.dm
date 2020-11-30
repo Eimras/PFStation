@@ -9,7 +9,7 @@
 	icon_dead = "eevee_d"
 	icon_rest = ""
 	desc = "Gotta catch 'em all!"
-	icon = 'phoenix/icons/mob/pokemon.dmi'
+	icon = 'phoenix/icons/mob/mobs/pokemon.dmi'
 	pixel_x = -16
 	default_pixel_x = -16
 	health = 100
@@ -400,7 +400,7 @@
 */
 
 /mob/living/simple_mob/animal/passive/pokemon/leg
-	icon = 'phoenix/icons/mob/legendary.dmi'
+	icon = 'phoenix/icons/mob/mobs/legendary.dmi'
 	pixel_x = -32
 	default_pixel_x = -32
 	health = 200
@@ -677,7 +677,7 @@
 /mob/living/simple_mob/animal/passive/pokemon/larvitar
 	name = "larvitar"
 	desc = "It is born deep underground. It can't emerge until it has entirely consumed the soil around it."
-	icon = 'phoenix/icons/mob/pokemon.dmi'
+	icon = 'phoenix/icons/mob/mobs/pokemon.dmi'
 	icon_state = "larvitar"
 	icon_living = "larvitar"
 	icon_dead = "larvitar_d"
