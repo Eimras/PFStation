@@ -6,6 +6,7 @@
 "au" = (/obj/structure/shuttle/engine/heater,/obj/structure/window/phoronreinforced{dir = 1},/obj/structure/window/phoronreinforced{dir = 8},/turf/simulated/floor/reinforced/airless,/area/space)
 "av" = (/obj/machinery/atmospherics/unary/engine/bigger{dir = 1},/turf/space,/area/space)
 "aB" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/hull/airless,/area/glace/maintenance/aft_radiator)
+"aG" = (/obj/machinery/vending/fitness,/turf/simulated/floor/tiled/eris/steel/brown_platform,/area/space)
 "aI" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,/turf/space,/area/glace/maintenance/aft_radiator)
 "aK" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/obj/structure/lattice,/turf/space,/area/glace/maintenance/aft_radiator)
 "aQ" = (/obj/machinery/atmospherics/unary/heater{dir = 8},/turf/simulated/floor,/area/space)
@@ -95,6 +96,7 @@
 "kb" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 1},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "kc" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 1},/turf/space,/area/glace/maintenance/aft_radiator)
 "kd" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 1},/obj/machinery/meter,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
+"ke" = (/obj/structure/sign/department/telecoms{pixel_x = 32},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/space)
 "kh" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "ko" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "kx" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 5},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/turf/simulated/floor,/area/space)
@@ -142,6 +144,7 @@
 "pv" = (/obj/machinery/atmospherics/portables_connector/aux{dir = 1},/obj/machinery/portable_atmospherics/canister/air/airlock,/turf/simulated/floor/tiled/eris/steel/orangecorner,/area/space)
 "pT" = (/obj/machinery/atmospherics/binary/pump,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 8; icon_state = "intact"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "qc" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/black,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
+"qd" = (/obj/machinery/door/airlock/glass_command{name = "Shield Generator"; req_one_access = list()},/turf/simulated/floor/bluegrid,/area/space)
 "qu" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/obj/structure/lattice,/turf/space,/area/glace/maintenance/aft_radiator)
 "qE" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 8; icon_state = "intact"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "qL" = (/obj/structure/table/reinforced,/obj/item/device/suit_cooling_unit,/obj/item/device/suit_cooling_unit,/turf/simulated/floor/tiled/eris/steel/orangecorner,/area/space)
@@ -163,11 +166,13 @@
 "sJ" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/turf/space,/area/glace/maintenance/aft_radiator)
 "sS" = (/obj/effect/floor_decal/techfloor{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/enginecontrol)
 "sU" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "glacialblastengine"; name = "Engine Monitoring Room Blast Doors"; opacity = 0},/obj/machinery/door/firedoor/glass,/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/enginecontrol)
+"td" = (/obj/machinery/vending/cola,/turf/simulated/floor/tiled/eris/steel/brown_platform,/area/space)
 "tf" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/reinforced/nitrogen{nitrogen = 82.1472},/area/glace/deckone/engine)
 "ti" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 1},/turf/simulated/floor,/area/space)
 "tk" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/borderfloorblack,/obj/effect/floor_decal/steeldecal/steel_decals_central4{dir = 1},/obj/structure/table/steel,/obj/item/clothing/gloves/yellow,/obj/item/clothing/gloves/yellow,/obj/item/clothing/gloves/yellow,/obj/item/stack/cable_coil{pixel_x = 3; pixel_y = 3},/obj/item/stack/cable_coil{pixel_x = 3; pixel_y = 3},/obj/item/stack/cable_coil{pixel_x = 3; pixel_y = 3},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
 "ts" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 1},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "tH" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/meter,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
+"tX" = (/turf/simulated/floor/bluegrid,/area/space)
 "ua" = (/obj/effect/floor_decal/borderfloorblack{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals9{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 8},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
 "uc" = (/obj/machinery/atmospherics/pipe/manifold/hidden/aux,/turf/simulated/floor/tiled/eris/steel/orangecorner,/area/space)
 "ug" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/reinforced/nitrogen{nitrogen = 82.1472},/area/glace/deckone/engine)
@@ -192,14 +197,17 @@
 "wD" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/black,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "wZ" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 8},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "xa" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
+"xj" = (/obj/machinery/vending/snack,/turf/simulated/floor/tiled/eris/steel/brown_platform,/area/space)
 "xl" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 1},/turf/simulated/floor,/area/space)
 "xt" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/effect/floor_decal/borderfloorblack/corner{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
+"xx" = (/obj/structure/sign/department/shield{pixel_x = 32},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/space)
 "xz" = (/obj/machinery/atmospherics/pipe/simple/visible/universal,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "xU" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 1},/turf/simulated/floor,/area/space)
 "xV" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "xY" = (/obj/machinery/atmospherics/pipe/tank/carbon_dioxide{dir = 1},/turf/simulated/floor/tiled/eris/white/danger,/area/glace/deckone/atmos)
 "xZ" = (/obj/structure/lattice,/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{dir = 8},/turf/space,/area/glace/maintenance/aft_radiator)
 "yf" = (/turf/simulated/floor/tiled/eris/white/cargo,/area/space)
+"yv" = (/obj/machinery/vending/sovietsoda,/turf/simulated/floor/tiled/eris/steel/brown_platform,/area/space)
 "yx" = (/turf/simulated/wall/r_wall,/area/glace/deckone/engine)
 "yC" = (/obj/machinery/atmospherics/pipe/simple/hidden/green{dir = 4},/turf/simulated/wall/rshull,/area/glace/deckone/engine)
 "yJ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
@@ -311,6 +319,7 @@
 "JE" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "JX" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 8},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "Kd" = (/obj/machinery/atmospherics/unary/heat_exchanger{dir = 8},/turf/simulated/floor,/area/space)
+"Ki" = (/turf/simulated/floor/tiled/eris/steel/brown_platform,/area/space)
 "Kl" = (/obj/structure/shuttle/engine/heater,/obj/structure/window/phoronreinforced{dir = 1},/obj/structure/window/phoronreinforced{dir = 4},/turf/simulated/floor/reinforced/airless,/area/space)
 "KC" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/effect/floor_decal/borderfloorblack/corner{dir = 4},/obj/effect/floor_decal/steeldecal/steel_decals10,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
 "KF" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/obj/machinery/conveyor{dir = 1; id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
@@ -346,6 +355,7 @@
 "Nm" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/power/emitter,/turf/simulated/floor,/area/space)
 "Nr" = (/obj/structure/lattice,/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 8},/turf/space,/area/glace/maintenance/aft_radiator)
 "Ny" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
+"NB" = (/obj/machinery/vending/coffee,/turf/simulated/floor/tiled/eris/steel/brown_platform,/area/space)
 "NK" = (/obj/machinery/atmospherics/omni/atmos_filter{tag_east = 6; tag_north = 2; tag_south = 1; tag_west = 0},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "NP" = (/obj/effect/floor_decal/techfloor{dir = 1},/obj/effect/floor_decal/techfloor,/obj/machinery/door/airlock/maintenance_hatch{name = "Engine Access"; req_access = list(11)},/obj/machinery/door/firedoor/glass,/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/enginecontrol)
 "NR" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 8; icon_state = "intact"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
@@ -483,8 +493,8 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXIXIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXIXIXIXIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXIXaaaaaaIXIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -524,15 +534,15 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvsvsvsvsvsvUVUVUVsvsvsvsvsvsvsvsvaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvsvsvsvsvsvUVUVUVsvsvsvsvsvsvsvsvaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvsvsvsvsvsvUVUVUVsvsvsvsvsvsvsvsvaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVmZmZmZmZmZmZmZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVmZtXtXtXtXtXmZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVkemZtXtXtXtXtXmZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVqdtXtXtXtXtXmZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVxxmZtXtXtXtXtXmZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUVUVUVmZtXtXtXtXtXmZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvsvsvsvsvsvUVUVUVmZmZmZmZmZmZmZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvsvsvsvsvsvUVUVUVAZtdaGxjyvNBAZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvsvsvsvsvsvUVUVUVAZKiKiKiKiKiAZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaasvsvsvsvsvsvsvsvsvsvUVUVUVAZAZAZAZAZAZAZAZAZAZUVUVUVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
