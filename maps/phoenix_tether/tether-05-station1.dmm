@@ -22985,13 +22985,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/gateway/prep_room)
-"oSF" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 6
-	},
-/obj/machinery/power/shield_generator,
-/turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/heads/chief)
 "oTn" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -23452,6 +23445,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/station/docks)
+"rTW" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 6
+	},
+/obj/machinery/power/shield_generator/upgraded/admin,
+/turf/simulated/floor/tiled/techfloor,
+/area/crew_quarters/heads/chief)
 "rYh" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -29540,7 +29540,7 @@ aRX
 aVz
 aRb
 bYg
-oSF
+rTW
 aRb
 bZv
 bZv
