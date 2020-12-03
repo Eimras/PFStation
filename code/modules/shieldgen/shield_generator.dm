@@ -105,7 +105,7 @@
 // Generates the field objects. Deletes existing field, if applicable.
 /obj/machinery/power/shield_generator/proc/regenerate_field()
 	for(var/obj/effect/shield/S in field_segments)
-		qdel(S)	
+		qdel(S)
 	var/list/shielded_turfs
 
 	if(check_flag(MODEFLAG_HULL))
@@ -720,3 +720,24 @@
 	name = "experimental shield generator"
 	power_coefficient = 0.2
 	hacked = TRUE
+
+//adding a starter shield gen, so it doesn't spawn with precursor tech. Prevents abuse.
+/obj/machinery/power/shield_generator/starter/Initialize()
+	. = ..()
+	for(var/obj/item/weapon/smes_coil/sc in component_parts)
+		component_parts -= sc
+		qdel(sc)
+
+	for(var/obj/item/weapon/stock_parts/capacitor/cap in component_parts)
+		component_parts -= cap
+		qdel(cap)
+
+	component_parts += new /obj/item/weapon/stock_parts/capacitor/super(src)
+	component_parts += new /obj/item/weapon/smes_coil/super_capacity(src)
+	RefreshParts()
+
+
+/obj/machinery/power/shield_generator/starter/ce
+	name = "Upgraded Shield Generator"
+	desc = "A heavy-duty shield generator and capacitor, capable of generating energy shields at large distances. This one has been upgraded to use less power."
+	power_coefficient = 0.2

@@ -20755,12 +20755,6 @@
 	},
 /turf/simulated/floor/carpet,
 /area/engineering/foyer)
-"bYJ" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/heads/chief)
 "bYN" = (
 /obj/item/device/instrument/violin,
 /turf/simulated/floor,
@@ -22138,6 +22132,13 @@
 /obj/random/cutout,
 /turf/simulated/floor,
 /area/maintenance/station/abandonedholodeck)
+"jzM" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/obj/machinery/power/shield_generator/starter/ce,
+/turf/simulated/floor/tiled/techfloor,
+/area/crew_quarters/heads/chief)
 "jBX" = (
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 4
@@ -23445,13 +23446,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/station/docks)
-"rTW" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 6
-	},
-/obj/machinery/power/shield_generator/upgraded/admin,
-/turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/heads/chief)
 "rYh" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -23923,6 +23917,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/station/docks)
+"tUN" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 6
+	},
+/obj/machinery/power/shield_generator/starter/ce,
+/turf/simulated/floor/tiled/techfloor,
+/area/crew_quarters/heads/chief)
 "ufa" = (
 /obj/effect/floor_decal/steeldecal/steel_decals9{
 	dir = 8
@@ -29256,7 +29257,7 @@ bft
 bhj
 aRb
 aCd
-bYJ
+jzM
 aRb
 bZv
 bZv
@@ -29540,7 +29541,7 @@ aRX
 aVz
 aRb
 bYg
-rTW
+tUN
 aRb
 bZv
 bZv
