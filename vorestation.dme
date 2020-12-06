@@ -3787,6 +3787,7 @@
 #include "phoenix\code\controllers\configuration_pf.dm"
 #include "phoenix\code\controllers\subsystems\circuit_component_pf.dm"
 #include "phoenix\code\controllers\subsystems\processing\circuit_pf.dm"
+#include "phoenix\code\game\turfs\simulated\water_ph.dm"
 #include "phoenix\code\machinery\cryopod_ph.dm"
 #include "phoenix\code\mob\pokemon.dm"
 #include "phoenix\code\mob\verbs_ph.dm"
@@ -3841,4 +3842,5 @@
 #include "phoenix\code\modules\mob\mob_helpers_pf.dm"
 #include "phoenix\code\modules\projectiles\projectile_pf.dm"
 #include "phoenix\code\modules\xgm\xgm_gas_mixture_pf.dm"
+#include "phoenix\code\objects\custombed.dm"
 // END_INCLUDE
