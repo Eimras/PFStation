@@ -538,10 +538,8 @@
 #include "../../offmap_vr/om_ships/mercenarybase.dm"
 #include "../../offmap_vr/om_ships/mercship.dm"
 #include "../../offmap_vr/om_ships/curashuttle.dm"
-
-//WOOOOOO
 #include "../../offmap_vr/phoenix/glacialpeak.dm"
-#include "../../offmap_vr/phoenix/glacialpeak_area.dm"
+
 
 //////////////////////////////////////////////////////////////////////////////
 //Capsule deployed ships
