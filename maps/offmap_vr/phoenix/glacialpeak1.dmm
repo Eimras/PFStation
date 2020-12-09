@@ -125,6 +125,7 @@
 "eR" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "eS" = (/obj/effect/floor_decal/techfloor{dir = 6},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
 "eU" = (/obj/structure/reagent_dispensers/foam,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
+"eV" = (/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "eW" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/dark,/area/glace/deckone/hanger)
 "eX" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 1},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "eY" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/bluegrid,/area/glace/deckone/mechbay)
@@ -222,6 +223,7 @@
 "it" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/turf/simulated/floor/tiled/eris/steel/danger,/area/glace/deckone/engine)
 "iu" = (/obj/effect/step_trigger/z_switch{z_offset = 1},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
 "iv" = (/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "warning"},/obj/machinery/atmospherics/pipe/simple/hidden/aux{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/hanger)
+"ix" = (/obj/machinery/mech_recharger{icon = 'icons/turf/shuttle_alien_blue.dmi'},/obj/mecha/combat/fighter/pinnace/loaded,/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/hanger)
 "iA" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/obj/machinery/conveyor_switch{id = "glacialatmosstoreage"; name = "Glacial Atmos Stoage"; pixel_x = -9; pixel_y = -5},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "iB" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
 "iC" = (/obj/structure/sink{pixel_y = 22},/obj/structure/mirror{pixel_y = 32},/obj/machinery/alarm{dir = 1; pixel_y = -28},/turf/simulated/floor/tiled/eris/white,/area/glace/deckone/central_hallway)
@@ -230,7 +232,6 @@
 "iJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/eris/techmaint_panels,/area/glace/deckone/medbay)
 "iO" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "iS" = (/obj/machinery/light,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
-"iU" = (/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "iW" = (/obj/machinery/door/airlock/multi_tile/metal{dir = 2; name = "Hanger"},/obj/machinery/door/firedoor/multi_tile{dir = 2},/turf/simulated/floor/tiled/eris/techmaint_panels,/area/glace/deckone/hanger)
 "iX" = (/obj/structure/filingcabinet/chestdrawer,/obj/effect/floor_decal/borderfloorblack{dir = 4},/obj/effect/floor_decal/corner/lightgrey/border{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/science)
 "iZ" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/space_heater,/turf/simulated/floor,/area/glace/deckone/engineering_storage)
@@ -319,7 +320,6 @@
 "mn" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/obj/machinery/meter,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "mo" = (/obj/effect/floor_decal/borderfloorwhite,/obj/effect/floor_decal/corner/paleblue/border,/obj/effect/floor_decal/borderfloorwhite/corner2,/obj/effect/floor_decal/corner/paleblue/bordercorner2,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/white,/area/glace/deckone/surgury_hall)
 "mq" = (/obj/effect/floor_decal/borderfloorwhite,/obj/effect/floor_decal/corner/paleblue/border,/obj/effect/floor_decal/borderfloorwhite/corner2{dir = 9},/obj/effect/floor_decal/corner/paleblue/bordercorner2{dir = 9},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/turf/simulated/floor/tiled/white,/area/glace/deckone/surgury_hall)
-"mr" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "ms" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 1},/obj/machinery/atmospherics/binary/pump{dir = 4; name = "Air to Mix"},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "mt" = (/obj/machinery/conveyor{dir = 1; id = "glacialatmosstoreage"},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/machinery/portable_atmospherics/canister/phoron,/obj/structure/window/reinforced,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "mv" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/tiled/white,/area/glace/deckone/medbay)
@@ -347,7 +347,6 @@
 "nh" = (/obj/machinery/alarm{dir = 1; pixel_y = -28},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
 "nj" = (/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/mauve/border{dir = 4},/obj/machinery/door/firedoor/glass/hidden,/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "nk" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/machinery/door/blast/regular{id = "glacialengineport"; layer = 3.3; name = "Reactor Blast Door"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
-"nm" = (/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 1},/obj/machinery/conveyor{dir = 8; id = "glacialpeakenginesupplies"},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "nn" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 8},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "np" = (/obj/effect/floor_decal/borderfloorblack{dir = 1},/obj/structure/table/darkglass,/turf/simulated/floor/tiled/eris/white/golden,/area/glace/deckone/bridge)
 "nq" = (/obj/effect/floor_decal/techfloor{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
@@ -417,6 +416,7 @@
 "pH" = (/obj/machinery/atmospherics/trinary/atmos_filter/m_filter{dir = 1; use_power = 0},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "pI" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 1},/turf/simulated/floor,/area/glace/deckone/port_engine)
 "pJ" = (/obj/machinery/recharge_station,/turf/simulated/floor/bluegrid,/area/glace/deckone/mechbay)
+"pM" = (/obj/item/modular_computer/console/preset{dir = 8},/turf/simulated/floor/tiled/eris/steel/bar_flat,/area/glace/deckone/bridge)
 "pO" = (/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "pQ" = (/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/turf/simulated/floor/tiled/white,/area/glace/deckone/surgury_one)
 "pR" = (/obj/structure/closet/secure_closet/medical2{req_access = list()},/turf/simulated/floor/tiled/white,/area/glace/deckone/surgury_one)
@@ -496,7 +496,6 @@
 "sr" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/obj/machinery/light,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "ss" = (/obj/machinery/atmospherics/portables_connector,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "st" = (/obj/machinery/pointdefense_control{id_tag = "talon_pd"},/turf/simulated/floor/bluegrid,/area/glace/deckone/tech)
-"su" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "sv" = (/obj/effect/floor_decal/techfloor/orange{dir = 1},/obj/effect/floor_decal/industrial/warning{icon_state = "warning"},/obj/machinery/atmospherics/pipe/simple/hidden/aux{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/hanger)
 "sw" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/eris/white/cargo,/area/glace/deckone/disposals)
 "sx" = (/obj/effect/floor_decal/techfloor{dir = 1},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
@@ -534,6 +533,7 @@
 "tA" = (/turf/simulated/floor/tiled/monofloor{dir = 8},/area/glace/deckone/hanger)
 "tD" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 6},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "tE" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/industrial/warning/corner{dir = 1},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 4},/obj/effect/floor_decal/steeldecal/steel_decals10,/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
+"tF" = (/obj/structure/window/reinforced{dir = 8},/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 4},/obj/machinery/light{dir = 4},/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "tG" = (/obj/effect/floor_decal/borderfloorwhite{dir = 9},/obj/effect/floor_decal/corner/blue/border{dir = 9},/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -28},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/white,/area/glace/deckone/chemistry)
 "tH" = (/turf/space,/area/glace/maintenance/aft_radiator)
 "tJ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/turf/simulated/floor/tiled/steel_grid,/area/glace/deckone/mechbay)
@@ -575,6 +575,8 @@
 "uY" = (/obj/structure/mopbucket,/obj/item/weapon/mop,/obj/item/weapon/reagent_containers/glass/bucket,/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/purple/border{dir = 1},/turf/simulated/floor/tiled/eris/white,/area/glace/deckone/janitalia)
 "vb" = (/obj/effect/floor_decal/borderfloorblack{dir = 10},/obj/effect/floor_decal/corner/lightgrey/border{dir = 10},/obj/machinery/door/firedoor/glass/hidden{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/science)
 "vc" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/turf/simulated/floor/tiled/eris/steel/danger,/area/glace/deckone/engine)
+"vf" = (/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
+"vi" = (/obj/effect/floor_decal/industrial/outline/blue,/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "vk" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 1},/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "vm" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 1},/turf/simulated/floor/hull/airless,/area/glace/maintenance/aft_radiator)
 "vo" = (/obj/effect/floor_decal/techfloor/orange/corner{dir = 8; icon_state = "techfloororange_corners"},/obj/effect/floor_decal/industrial/warning{dir = 1; icon_state = "warning"},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/hanger)
@@ -582,6 +584,7 @@
 "vs" = (/obj/effect/floor_decal/industrial/outline/blue,/obj/machinery/atmospherics/portables_connector,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "vt" = (/obj/machinery/atmospherics/omni/atmos_filter{tag_north = 1; tag_south = 2; tag_west = 4},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "vu" = (/obj/effect/floor_decal/borderfloorwhite{dir = 4},/obj/effect/floor_decal/corner/paleblue/border{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 1},/obj/effect/floor_decal/borderfloorwhite/corner2{dir = 6},/obj/effect/floor_decal/corner/paleblue/bordercorner2{dir = 6},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/white,/area/glace/deckone/medbay)
+"vv" = (/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 1},/obj/machinery/conveyor{dir = 8; id = "glacialpeakenginesupplies"},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "vw" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "vx" = (/turf/simulated/floor/tiled/white,/area/glace/deckone/chemistry)
 "vy" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/wall/r_wall,/area/glace/deckone/hanger)
@@ -664,7 +667,6 @@
 "xP" = (/obj/effect/floor_decal/borderfloor{dir = 5},/obj/effect/floor_decal/corner/mauve/border{dir = 5},/obj/machinery/door/firedoor/glass/hidden,/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "xT" = (/obj/machinery/door/airlock/maintenance_hatch{name = "Engine Access"; req_access = list(); req_one_access = list()},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/firedoor/glass,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/powerroom)
 "xV" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/enginecontrol)
-"xX" = (/obj/effect/floor_decal/borderfloorblack{dir = 1},/obj/item/modular_computer/console,/turf/simulated/floor/tiled/eris/dark/cyancorner,/area/glace/deckone/bridge)
 "xZ" = (/obj/machinery/atmospherics/unary/heater{dir = 8},/turf/simulated/floor,/area/glace/deckone/port_engine)
 "ya" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/red,/obj/machinery/meter,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "yb" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
@@ -696,6 +698,7 @@
 "za" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "zb" = (/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/mauve/border{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/door/firedoor/glass/hidden,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "ze" = (/obj/machinery/button/windowtint{id = "robo_surg_GP"; pixel_x = -24},/obj/effect/floor_decal/industrial/warning/corner,/turf/simulated/floor/tiled/steel_grid,/area/glace/deckone/science_surgury)
+"zi" = (/obj/effect/floor_decal/borderfloorblack{dir = 1},/obj/item/modular_computer/console/preset,/turf/simulated/floor/tiled/eris/dark/cyancorner,/area/glace/deckone/bridge)
 "zj" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/borderfloorblack{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
 "zk" = (/obj/machinery/suit_cycler/engineering{req_access = null},/turf/simulated/floor/tiled/eris/steel/orangecorner,/area/glace/deckone/eva_room)
 "zl" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 1},/turf/simulated/floor/tiled/eris/white,/area/glace/deckone/janitalia)
@@ -786,6 +789,7 @@
 "Cs" = (/obj/structure/bed/chair/bay/comfy/brown{dir = 1},/turf/simulated/floor/tiled/eris/white/golden,/area/glace/deckone/bridge)
 "Cu" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/turf/space,/area/glace/maintenance/aft_radiator)
 "Cv" = (/turf/simulated/wall/r_wall,/area/glace/deckone/engineering_storage)
+"Cz" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "CA" = (/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "CB" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/science)
 "CD" = (/obj/machinery/mech_recharger{icon = 'icons/turf/shuttle_alien_blue.dmi'},/obj/mecha/combat/phazon/janus,/turf/simulated/floor/bluegrid,/area/glace/deckone/mechbay)
@@ -797,6 +801,7 @@
 "CM" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 10; icon_state = "intact"},/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "CO" = (/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_x = 0; pixel_y = 28},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/obj/structure/catwalk,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/starport_maintence)
 "CP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
+"CQ" = (/obj/machinery/conveyor{dir = 1; id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 4},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "CT" = (/obj/machinery/conveyor{dir = 1; id = "glacialatmosstoreage"},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/machinery/portable_atmospherics/canister/phoron,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "CY" = (/obj/structure/table/standard,/obj/random/tech_supply,/obj/random/tech_supply,/obj/random/tech_supply,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "Db" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/eris/steel/danger,/area/glace/deckone/engine)
@@ -804,6 +809,7 @@
 "Df" = (/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/mauve/border{dir = 4},/obj/effect/floor_decal/borderfloor/corner2{dir = 6},/obj/effect/floor_decal/corner/mauve/bordercorner2{dir = 6},/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "Dh" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/aft_port_hallway)
 "Dk" = (/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
+"Dm" = (/obj/machinery/conveyor{dir = 1; id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "Do" = (/obj/machinery/door/airlock/hatch{icon_state = "door_locked"; id_tag = null; locked = 1; req_access = list(); req_one_access = list()},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "Dr" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
 "Dw" = (/obj/machinery/atmospherics/unary/engine/bigger{dir = 1},/turf/space,/area/glace/deckone/starport_engine)
@@ -928,6 +934,7 @@
 "HJ" = (/obj/effect/floor_decal/borderfloor{dir = 5},/obj/effect/floor_decal/corner/purple/border{dir = 5},/turf/simulated/floor/tiled/eris/white,/area/glace/deckone/janitalia)
 "HK" = (/turf/simulated/floor/tiled/eris/white/cyancorner,/area/glace/deckone/medbaystorage)
 "HQ" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 1},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
+"HS" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 8},/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "HT" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
 "HU" = (/obj/effect/floor_decal/borderfloorwhite{dir = 4},/obj/effect/floor_decal/corner/paleblue/border{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 1},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/white,/area/glace/deckone/medbay)
 "HV" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
@@ -1080,7 +1087,6 @@
 "Np" = (/obj/effect/floor_decal/borderfloorblack{dir = 8},/obj/effect/floor_decal/industrial/danger{dir = 8},/obj/structure/table/rack/shelf/steel,/obj/item/clothing/head/welding,/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
 "Nr" = (/obj/effect/floor_decal/borderfloorblack{dir = 4},/obj/effect/floor_decal/corner/lightgrey/border{dir = 4},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/science)
 "Ns" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 1},/obj/effect/floor_decal/industrial/warning{dir = 6},/turf/simulated/floor/reinforced/nitrogen{nitrogen = 82.1472},/area/glace/deckone/engine)
-"Nt" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "Nx" = (/obj/structure/disposalpipe/segment,/turf/simulated/wall/r_wall,/area/glace/deckone/engineering_storage)
 "NC" = (/obj/structure/table/glass,/obj/item/weapon/storage/box/donkpockets,/turf/simulated/floor/wood,/area/glace/deckone/science_breakroom)
 "NH" = (/obj/structure/table/darkglass,/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
@@ -1097,7 +1103,6 @@
 "NZ" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor,/area/glace/deckone/powerroom)
 "Oa" = (/obj/machinery/atmospherics/pipe/manifold/visible/blue{dir = 1},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "Ob" = (/obj/effect/floor_decal/borderfloorblack{dir = 4},/obj/effect/floor_decal/industrial/danger{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
-"Oc" = (/obj/item/modular_computer/console{dir = 8},/turf/simulated/floor/tiled/eris/steel/bar_flat,/area/glace/deckone/bridge)
 "Oe" = (/obj/machinery/atmospherics/pipe/manifold/visible/red,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "Og" = (/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 6},/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 9},/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals10,/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
 "Oi" = (/obj/effect/floor_decal/steeldecal/steel_decals9,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
@@ -1136,7 +1141,6 @@
 "Pq" = (/turf/simulated/wall/rshull,/area/glace/deckone/science_surgury)
 "Ps" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 5},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/port_engine)
 "Px" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 10; icon_state = "intact"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
-"Py" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 8},/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "PC" = (/obj/machinery/conveyor{dir = 1; id = "glacialatmosstoreage"},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/machinery/portable_atmospherics/canister/air,/obj/structure/window/reinforced,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
 "PD" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/railing,/turf/simulated/floor/tiled/eris/steel/danger,/area/glace/deckone/engine)
 "PE" = (/turf/simulated/floor/tiled/white,/area/glace/deckone/surgury_one)
@@ -1174,7 +1178,6 @@
 "QL" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/catwalk,/turf/simulated/floor/hull/airless,/area/glace/maintenance/aft_radiator)
 "QM" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 1},/turf/simulated/floor,/area/glace/deckone/port_engine)
 "QN" = (/obj/structure/table/darkglass,/obj/machinery/recharger,/obj/effect/floor_decal/borderfloor{dir = 10},/obj/effect/floor_decal/corner/mauve/border{dir = 10},/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
-"QO" = (/obj/structure/window/reinforced{dir = 8},/obj/machinery/conveyor{id = "glacialpeakenginesupplies"},/obj/machinery/portable_atmospherics/canister/oxygen,/obj/structure/window/reinforced{dir = 4},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "QP" = (/obj/structure/disposalpipe/segment,/obj/structure/grille,/turf/simulated/floor/plating/eris/under,/area/glace/deckone/starport_maintence)
 "QQ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
 "QV" = (/obj/structure/table/glass,/obj/item/weapon/reagent_containers/glass/beaker/cryoxadone{pixel_x = -4; pixel_y = 0},/obj/item/weapon/reagent_containers/glass/beaker/cryoxadone{pixel_x = 6; pixel_y = 8},/obj/effect/floor_decal/corner/paleblue{dir = 9},/obj/effect/floor_decal/corner/paleblue{dir = 6},/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/tiled/white,/area/glace/deckone/medbay)
@@ -1195,7 +1198,6 @@
 "RB" = (/obj/effect/floor_decal/techfloor{dir = 9},/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -28},/obj/structure/cable,/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/enginecontrol)
 "RE" = (/turf/simulated/wall/rshull,/area/glace/deckone/engine)
 "RG" = (/obj/machinery/atmospherics/pipe/simple/visible/purple{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 1},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/atmos)
-"RH" = (/obj/machinery/conveyor{dir = 1; id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "RI" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 1; icon_state = "intact"},/turf/simulated/floor/plating/eris/under,/area/glace/deckone/engine)
 "RJ" = (/obj/machinery/r_n_d/circuit_imprinter,/obj/item/weapon/reagent_containers/glass/beaker/large,/turf/simulated/floor/tiled/dark,/area/glace/deckone/science)
 "RK" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 10},/obj/machinery/light/small{dir = 1},/turf/simulated/floor,/area/glace/deckone/port_engine)
@@ -1203,7 +1205,6 @@
 "RM" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/obj/effect/floor_decal/borderfloorblack,/obj/effect/floor_decal/industrial/danger,/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
 "RN" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/borderfloorblack{dir = 6},/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/powerroom)
 "RO" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/tiled/eris/steel/danger,/area/glace/deckone/engine)
-"RU" = (/obj/machinery/mech_recharger{icon = 'icons/turf/shuttle_alien_blue.dmi'},/obj/mecha/combat/fighter/allure/loaded,/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/hanger)
 "RV" = (/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "RW" = (/obj/machinery/power/terminal{dir = 1; icon_state = "term"},/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/turf/simulated/floor,/area/glace/deckone/powerroom)
 "RX" = (/turf/simulated/wall,/area/glace/deckone/science_surgury)
@@ -1291,7 +1292,6 @@
 "UZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/glace/deckone/hanger)
 "Va" = (/obj/structure/closet/wardrobe/chemistry_white,/obj/item/weapon/storage/box/pillbottles,/obj/item/weapon/storage/box/pillbottles,/obj/item/weapon/storage/fancy/vials,/obj/item/weapon/storage/fancy/vials,/obj/item/weapon/storage/box/syringes,/obj/effect/floor_decal/borderfloorwhite{dir = 1},/obj/effect/floor_decal/corner/blue/border{dir = 1},/obj/effect/floor_decal/borderfloorwhite/corner2{dir = 4},/obj/effect/floor_decal/corner/blue/bordercorner2{dir = 4},/turf/simulated/floor/tiled/white,/area/glace/deckone/chemistry)
 "Vc" = (/obj/effect/floor_decal/borderfloorwhite{dir = 4},/obj/effect/floor_decal/corner/paleblue/border{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 1},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/white,/area/glace/deckone/medbay)
-"Vg" = (/obj/machinery/conveyor{dir = 1; id = "glacialpeakenginesupplies"},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/deckone/engine)
 "Vi" = (/obj/machinery/body_scanconsole{dir = 4},/obj/effect/floor_decal/corner_steel_grid{dir = 10},/turf/simulated/floor/tiled/white,/area/glace/deckone/medbay)
 "Vj" = (/obj/machinery/light,/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
 "Vl" = (/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/central_hallway)
@@ -1462,10 +1462,10 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRBCLOLOSpSpSpLOLOBCStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRebebebQDQDQDebebebStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRIRebebebioioioebebebStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRgfebgyxXnpoqnpganYebwZStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRgfebgyzinpoqnpganYebwZStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRgfIRIRgfebcCVssGCscRZEEmebwZStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRiIIRgfgfebYNpUrtrtrtpUPpebkVkVStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRUpIRgfgfebpUZclQGPOcmOpUebkVkVStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRUpIRgfgfebpUZclQGPpMmOpUebkVkVStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRUpgfgfgfebnAtSQHIjhDfcnAebkVkVwZStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRIRHtgfgfgfebvOvOvOMSvOvOvOebTGkVwZwZStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRIRrFrFrFrFrFrFrFrFrFrFrFrFIRIRgfHtgfgfgfebBNWejjsBWiIlBNebkVkVwZwZwZStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -1476,7 +1476,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoavOpweMWMWMWMWMWMWLmOpavyCzAfAavavkiIUWdFoVldBTqCfVlWEiCVztlTqkVkVkVZWkVkVwZuEStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoavOpweMWMWMWMWMWMWlsOpavyCzAfAavMEsvfgXZFoVldBUCCfVlWyWyWyWyWyWyWyWyWykVkVwZQPStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoavOpweMWMWMWMWMWMWvrHXuXYLYLYLuXvVtAZbIMFoVldByrhCVlWycDYMTkXDTfzteHWyTGkVkVBhwZStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoavOpweMWMWMWMWMWMWmDOruipTpTpTuiowRUUjivFoVldBTYCfVlWyymHoJkJkJkJkSdWykVkVkVBhkVkVStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoavOpweMWMWMWMWMWMWmDOruipTpTpTuiowixUjivFoVldBTYCfVlWyymHoJkJkJkJkSdWykVkVkVBhkVkVStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoqOOpweMWMWMWMWMWMWlsOpavyCzAfAavreKAKAGDFoVldBTqCfVlWysbHoJkJkJkJkCdWyWyWykVrukVkVwZStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoieOpweMWMWMWMWMWMWlsOpMMyCzAfAkbvJvJFeeMFoVldBTqCfVlWysouypDnWnWnWrYBMpsWydDTbkVkVwZwZStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaIRFoXwtRweMWMWMWMWMWMWlsxpJzmgIzIzmQIzYHLRTwFoVlCPjSCfVlWyoVmRcmqBpkYwzUILeCBQwmWykVkVkVkVkVStStaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -1518,11 +1518,11 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarlpipipipinEQNrUJtZtbunEvTlBvTrHSmYzzjDVDVDVchOiyOJIWAZkWAWAWAWAbAAHenhpcdcdCvFSamegOqcWOzwIpXmnmbqFqFPKDFEYosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarlpinEnEnEnEnEnEnEnEnEnEvTlBbhrHSmYzKRpYAUtLBvxHqRcMWARBExaleuWAririccJBiZmWCvCvhGhGRaGbtisMbYWzuztUDkEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmWHsJXnEbEbDhEbEbYZEbAAvTrHSmYzYzYzYzYzYzYzZlaxKiFFUSxVrpWACvCvCvCvCvCvCvCvhGDkmCfGHQSgrhChboyawTEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmsivTvTvTvTvTvTvTyTvTigvTrHSmcfQrCFPynmmrcfZlVZWAwahvaCIZWAcfcfcfcfcfcfcfcfhGLTvLdeneqQFPAjqFgJwTEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmNYvTJdJdJdJdJdJdJdUnzrUnJdJdcfFQSJiURHmrcfZlxzWADODODODOWAHDqvHDIywRHDHDcfhGDkAaAqicpOMvzRZwKnqFWsDFEYosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmNYvTJdjFIHrsfvPeJNlOZrzWXOJdcfSAQuESVgQOcfbeRNYzaounfyfyfyfyfyfyIsDbHDHDcfhGHjGavtDkDkUwEKRGPUYDEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmNYvTJdDPgYtdtdxNuptdMsUyUfJdcfxujkbsjksucflIdnYzImHDvFAIAIAIAIAIAIAIQvoDcfhGHjyaZOZhqFrhHQmCtbYDEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmsivTJdSlbRqdqdqdqdqdqfACejJdcfxuwYNtthMpcfoelbAsevWWOKXRXRLnOoPxuKEEHzoDcfhGHjOepChctUsPAjWvZhrAEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmsivTvTvTvTvTvTvTyTvTigvTrHSmcfQrCFHSvvvfcfZlVZWAwahvaCIZWAcfcfcfcfcfcfcfcfhGLTvLdeneqQFPAjqFgJwTEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmNYvTJdJdJdJdJdJdJdUnzrUnJdJdcfFQSJeVDmvfcfZlxzWADODODODOWAHDqvHDIywRHDHDcfhGDkAaAqicpOMvzRZwKnqFWsDFEYosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmNYvTJdjFIHrsfvPeJNlOZrzWXOJdcfSAQuESCQtFcfbeRNYzaounfyfyfyfyfyfyIsDbHDHDcfhGHjGavtDkDkUwEKRGPUYDEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmNYvTJdDPgYtdtdxNuptdMsUyUfJdcfxujkbsjkvicflIdnYzImHDvFAIAIAIAIAIAIAIQvoDcfhGHjyaZOZhqFrhHQmCtbYDEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmsivTJdSlbRqdqdqdqdqdqfACejJdcfxuwYCzthMpcfoelbAsevWWOKXRXRLnOoPxuKEEHzoDcfhGHjOepChctUsPAjWvZhrAEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmZQvTJdoQDUqdqdqdqdqdUTXmrGJdcfcfcfZxLScfcfRyvcwpNhKIRIuKvPOvxjeXAYwgHWeBcfhGHfOaTubWEPNjKjGJmsHVEyDFEYosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPYYXSmZQpmJdbzYqjUwLVOzktzNXtznSJdcfWrSXHDxlNiEiTZIpcfaioaZicfGIUibTWDczquFUWQcfhGHfgPOYtDHYfRLwGdWuDkEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaayRihihCrihJdJdJdJdJdJdJdtzGztzJdJdcfHDHDHDGifuPDKhfJnkxolHXPnkjlzynCPxuKEEHzybcfhGDkWKWlxbOyjcLWdkCETcEyDFNfosaYcQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
