@@ -8,7 +8,7 @@
 /area/glace/maintenance/aft_radiator
 	name = "\improper Glacial Deck One - Raditor"
 	icon_state = "gray"
-
+	dynamic_lighting = 0
 
 /area/glace/deckone/engine
 	name = "\improper Glacial Deck One - Engine Room"
