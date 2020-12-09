@@ -2,6 +2,8 @@
 	name = "\improper PES Glacial Peak"
 	icon = 'icons/turf/areas_vr_talon.dmi'
 	icon_state = "dark"
+	requires_power = 1
+	dynamic_lighting = 1
 
 /area/glace/maintenance/aft_radiator
 	name = "\improper Glacial Deck One - Raditor"

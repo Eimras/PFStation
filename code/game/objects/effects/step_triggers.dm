@@ -245,3 +245,29 @@ var/global/list/tele_landmarks = list() // Terrible, but the alternative is loop
 	else
 		message_admins("ERROR: planetary_fall step trigger lacks a planet to fall onto.")
 		return
+
+/obj/effect/step_trigger/z_switch
+	var/z_offset = 0 //How far down or up you want to move the player on the Z axis.
+
+	Trigger(atom/movable/AM)
+		if(z_offset)
+			var/turf/T = locate(AM.x, AM.y, AM.z + z_offset)
+//			to_world("Moving user ([AM.x],[AM.y],[AM.z]) to [T.x],[T.y],[T.z]") comment it back in if testing :p
+			move_object(AM, T)
+
+	proc/move_object(atom/movable/AM, turf/T) // Yoinked from teleport trigger
+		if(AM.anchored && !istype(AM, /obj/mecha))
+			return
+
+		if(isliving(AM))
+			var/mob/living/L = AM
+			if(L.pulling)
+				var/atom/movable/P = L.pulling
+				L.stop_pulling()
+				P.forceMove(T)
+				L.forceMove(T)
+				L.start_pulling(P)
+			else
+				L.forceMove(T)
+		else
+			AM.forceMove(T)
