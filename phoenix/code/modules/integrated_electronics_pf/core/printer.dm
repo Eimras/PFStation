@@ -330,15 +330,15 @@
 	return TRUE
 
 // FUKKEN UPGRADE DISKS
-/*
-/obj/item/disk/integrated_circuit/upgrade
+
+/obj/item/weapon/disk/integrated_circuit/upgrade
 	name = "integrated circuit printer upgrade disk"
 	desc = "Install this into your integrated circuit printer to enhance it."
 	icon = 'icons/obj/assemblies/electronic_tools.dmi'
 	icon_state = "upgrade_disk"
 	item_state = "card-id"
 	w_class = ITEMSIZE_SMALL
-*/
+
 /obj/item/weapon/disk/integrated_circuit/upgrade/advanced
 	name = "integrated circuit printer upgrade disk - advanced designs"
 	desc = "Install this into your integrated circuit printer to enhance it.  This one adds new, advanced designs to the printer."
