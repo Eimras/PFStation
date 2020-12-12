@@ -13,6 +13,16 @@
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/cheesyfries
 
+/datum/recipe/chilicheesefries //moved here by pheonix station
+	appliance = FRYER
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/fries,
+		/obj/item/weapon/reagent_containers/food/snacks/cheesewedge,
+		/obj/item/weapon/reagent_containers/food/snacks/hotchili
+	)
+	reagent_mix = RECIPE_REAGENT_REPLACE //Simplify end product
+	result = /obj/item/weapon/reagent_containers/food/snacks/chilicheesefries
+
 /datum/recipe/jpoppers
 	appliance = FRYER
 	fruit = list("chili" = 1)
@@ -167,8 +177,8 @@
 	appliance = FRYER
 	reagents = list("capsaicin" = 2, "sugar" = 2, "batter" = 10)
 	items = list(
-		/obj/item/weapon/reagent_containers/food/snacks/meat,
-		/obj/item/weapon/reagent_containers/food/snacks/meat
+		/obj/item/weapon/reagent_containers/food/snacks/meat/chicken, //edit to chicken
+		/obj/item/weapon/reagent_containers/food/snacks/meat/chicken
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/generalschicken
 
@@ -176,9 +186,25 @@
 	appliance = FRYER
 	reagents = list("capsaicin" = 5, "batter" = 10)
 	items = list(
-		/obj/item/weapon/reagent_containers/food/snacks/meat,
-		/obj/item/weapon/reagent_containers/food/snacks/meat,
-		/obj/item/weapon/reagent_containers/food/snacks/meat,
-		/obj/item/weapon/reagent_containers/food/snacks/meat
+		/obj/item/weapon/reagent_containers/food/snacks/meat/chicken, //edit to chicken
+		/obj/item/weapon/reagent_containers/food/snacks/meat/chicken,
+		/obj/item/weapon/reagent_containers/food/snacks/meat/chicken,
+		/obj/item/weapon/reagent_containers/food/snacks/meat/chicken
 	)
 	result = /obj/item/weapon/storage/box/wings //This is kinda like the donut box.
+
+//pheonix station moves
+/datum/recipe/onionrings
+	appliance = FRYER
+	fruit = list("onion" = 1)
+	coating = /datum/reagent/nutriment/coating/batter
+	result = /obj/item/weapon/reagent_containers/food/snacks/onionrings
+
+/datum/recipe/nugget
+	appliance = FRYER
+	reagents = list("flour" = 5)
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/meat/chicken
+	)
+	reagent_mix = RECIPE_REAGENT_REPLACE
+	result = /obj/item/weapon/reagent_containers/food/snacks/nugget
