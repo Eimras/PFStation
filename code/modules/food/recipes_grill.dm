@@ -13,7 +13,7 @@
 		/obj/item/weapon/reagent_containers/food/snacks/meat //do not place this recipe before /datum/recipe/humanburger
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/monkeyburger
-	
+
 /datum/recipe/syntiburger
 	appliance = GRILL
 	items = list(
@@ -85,7 +85,7 @@
 		/obj/item/clothing/head/beret
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/mimeburger
-	
+
 /datum/recipe/mouseburger
 	appliance = GRILL
 	items = list(
@@ -93,7 +93,7 @@
 		/obj/item/weapon/holder/mouse
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/mouseburger
-	
+
 /datum/recipe/bunbun
 	appliance = GRILL
 	items = list(
@@ -109,7 +109,7 @@
 		/obj/item/weapon/reagent_containers/food/snacks/sausage
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/hotdog
-	
+
 /datum/recipe/humankabob
 	appliance = GRILL
 	items = list(
@@ -127,7 +127,7 @@
 		/obj/item/weapon/reagent_containers/food/snacks/meat,
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/monkeykabob
-	
+
 /datum/recipe/monkeykabob
 	appliance = GRILL
 	items = list(
@@ -154,7 +154,7 @@
 		/obj/item/weapon/reagent_containers/food/snacks/tofu,
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/tofukabob
-	
+
 /datum/recipe/fakespellburger
 	appliance = GRILL
 	items = list(
@@ -182,7 +182,7 @@
 	reagents = list("egg" = 3)
 	reagent_mix = RECIPE_REAGENT_REPLACE
 	result = /obj/item/weapon/reagent_containers/food/snacks/bigbiteburger
-	
+
 /datum/recipe/superbiteburger
 	appliance = GRILL
 	fruit = list("tomato" = 1)
@@ -195,7 +195,7 @@
 		/obj/item/weapon/reagent_containers/food/snacks/boiledegg,
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/superbiteburger
-	
+
 /datum/recipe/slimeburger
 	appliance = GRILL
 	reagents = list("slimejelly" = 5)
@@ -211,7 +211,7 @@
 		/obj/item/weapon/reagent_containers/food/snacks/bun
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/jellyburger/cherry
-	
+
 /datum/recipe/bearburger
 	appliance = GRILL
 	items = list(
@@ -229,7 +229,7 @@
 		/obj/item/weapon/reagent_containers/food/snacks/bacon
 	)
 	result = /obj/item/weapon/reagent_containers/food/snacks/burger/bacon
-	
+
 /datum/recipe/omurice
 	appliance = GRILL
 	reagents = list("rice" = 5, "ketchup" = 5, "egg" = 3)
@@ -244,3 +244,112 @@
 	appliance = GRILL
 	reagents = list("rice" = 5, "ketchup" = 5, "sodiumchloride" = 5, "egg" = 3)
 	result = /obj/item/weapon/reagent_containers/food/snacks/omurice/face
+
+//pheonix station move
+/datum/recipe/blt
+	appliance = GRILL
+	fruit = list("tomato" = 1, "cabbage" = 1)
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/slice/bread,
+		/obj/item/weapon/reagent_containers/food/snacks/slice/bread,
+		/obj/item/weapon/reagent_containers/food/snacks/bacon,
+		/obj/item/weapon/reagent_containers/food/snacks/bacon
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/blt
+
+/datum/recipe/bacon_and_eggs
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/bacon,
+		/obj/item/weapon/reagent_containers/food/snacks/friedegg
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/bacon_and_eggs
+
+
+/datum/recipe/grilled_carp
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/carpmeat,
+		/obj/item/weapon/reagent_containers/food/snacks/carpmeat,
+		/obj/item/weapon/reagent_containers/food/snacks/carpmeat,
+		/obj/item/weapon/reagent_containers/food/snacks/carpmeat,
+		/obj/item/weapon/reagent_containers/food/snacks/carpmeat,
+		/obj/item/weapon/reagent_containers/food/snacks/carpmeat
+	)
+	reagents = list("spacespice" = 1)
+	fruit = list("cabbage" = 1, "lime" = 1)
+	result = /obj/item/weapon/reagent_containers/food/snacks/sliceable/grilled_carp
+
+/datum/recipe/egg_pancake
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/meatball,
+		/obj/item/weapon/reagent_containers/food/snacks/meatball,
+		/obj/item/weapon/reagent_containers/food/snacks/meatball,
+		/obj/item/weapon/reagent_containers/food/snacks/omelette
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/egg_pancake
+
+/datum/recipe/father_breakfast
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/sausage,
+		/obj/item/weapon/reagent_containers/food/snacks/omelette,
+		/obj/item/weapon/reagent_containers/food/snacks/meatsteak
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/father_breakfast
+
+/datum/recipe/red_sun_special
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/sausage,
+		/obj/item/weapon/reagent_containers/food/snacks/cheesewedge
+
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/red_sun_special
+
+/datum/recipe/honeytoast
+	appliance = GRILL
+	reagents = list("honey" = 5)
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/slice/bread
+	)
+	reagent_mix = RECIPE_REAGENT_REPLACE //Simplify end product
+	result = /obj/item/weapon/reagent_containers/food/snacks/honeytoast
+
+/datum/recipe/chickenfillet //Also just combinable, like burgers and hot dogs.
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/chickenkatsu,
+		/obj/item/weapon/reagent_containers/food/snacks/bun
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/chickenfillet
+
+/datum/recipe/grilledcheese
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/slice/bread,
+		/obj/item/weapon/reagent_containers/food/snacks/slice/bread,
+		/obj/item/weapon/reagent_containers/food/snacks/cheesewedge,
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/grilledcheese
+
+/datum/recipe/sandwich
+	appliance = GRILL
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/meatsteak,
+		/obj/item/weapon/reagent_containers/food/snacks/slice/bread,
+		/obj/item/weapon/reagent_containers/food/snacks/slice/bread,
+		/obj/item/weapon/reagent_containers/food/snacks/cheesewedge,
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/sandwich
+
+/datum/recipe/devilledegg
+	appliance = GRILL
+	fruit = list("chili" = 1)
+	reagents = list("sodiumchloride" = 2, "mayo" = 5)
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/egg,
+		/obj/item/weapon/reagent_containers/food/snacks/egg
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/devilledegg
