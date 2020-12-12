@@ -78,3 +78,8 @@
 	vessel_mass = 3000
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "The IceBreaker"
+
+/obj/machinery/computer/shuttle_control/explore/icebreaker
+	name = "short jump console"
+	shuttle_tag = "The IceBreaker"
+	req_one_access = list()
