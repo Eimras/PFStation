@@ -25,7 +25,7 @@
 	vessel_mass = 10000
 	vessel_size = SHIP_SIZE_LARGE
 //	initial_generic_waypoints = list("talon_fore", "talon_aft", "talon_port", "talon_starboard")
-//	initial_restricted_waypoints = list("Talon's boat" = list("offmap_spawn_talonboat"), "Talon lifeboat" = list("offmap_spawn_talon_lifeboat"))
+	initial_restricted_waypoints = list("The IceBreaker" = list("omship_ship_icebreak"))
 
 
 
@@ -41,3 +41,40 @@
 
 /obj/structure/faker_stairs/top
 	color = "#B0B0B0"
+
+
+/area/shuttle/glacialboat
+	name = "IceBreaker"
+	requires_power = 1
+	dynamic_lighting = 1
+/*
+// The shuttle's 'shuttle' computer
+/obj/machinery/computer/shuttle_control/explore/aroboat2
+	name = "boat control console"
+	shuttle_tag = "The IceBreaker"
+	req_one_access = list(access_cent_general)
+*/
+// A shuttle lateloader landmark
+/obj/effect/shuttle_landmark/shuttle_initializer/glacialboat
+	name = "The IceBreaker Hanger"
+	base_area = /area/glace/deckone/hanger
+	base_turf = /turf/simulated/floor/tiled/monotile
+	landmark_tag = "omship_ship_icebreak"
+//	docking_controller = "aroship2_boatbay"
+	shuttle_type = /datum/shuttle/autodock/overmap/glacialboat
+
+// The 'shuttle'
+/datum/shuttle/autodock/overmap/glacialboat
+	name = "The IceBreaker"
+	current_location = "omship_ship_icebreak"
+//	docking_controller_tag = "aroboat2_docker"
+	shuttle_area = /area/shuttle/glacialboat
+	fuel_consumption = 1
+	defer_initialisation = TRUE
+
+/obj/effect/overmap/visitable/ship/landable/glacialboat
+	name = "The Ice Breaker"
+	desc = "Droppy is a dumb"
+	vessel_mass = 3000
+	vessel_size = SHIP_SIZE_SMALL
+	shuttle = "The IceBreaker"
