@@ -3849,4 +3849,6 @@
 #include "phoenix\code\modules\projectiles\projectile_pf.dm"
 #include "phoenix\code\modules\xgm\xgm_gas_mixture_pf.dm"
 #include "phoenix\code\objects\custombed.dm"
+#include "phoenix\code\objects\devices.dm"
+#include "phoenix\code\objects\misc.dm"
 // END_INCLUDE
