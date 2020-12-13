@@ -67,7 +67,7 @@
 /datum/shuttle/autodock/overmap/glacialboat
 	name = "The IceBreaker"
 	current_location = "omship_ship_icebreak"
-//	docking_controller_tag = "aroboat2_docker"
+	docking_controller_tag = "icebreaker_docker"
 	shuttle_area = /area/shuttle/glacialboat
 	fuel_consumption = 1
 	defer_initialisation = TRUE
