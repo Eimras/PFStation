@@ -177,7 +177,7 @@
 		list("Listening Post")
 		)
 
-	ai_shell_restricted = TRUE
+	ai_shell_restricted = FALSE
 	ai_shell_allowed_levels = list(
 		Z_LEVEL_SURFACE_LOW,
 		Z_LEVEL_SURFACE_MID,
