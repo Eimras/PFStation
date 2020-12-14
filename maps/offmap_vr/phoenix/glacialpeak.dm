@@ -24,7 +24,7 @@
 	color = "#aacccc"
 	vessel_mass = 10000
 	vessel_size = SHIP_SIZE_LARGE
-//	initial_generic_waypoints = list("talon_fore", "talon_aft", "talon_port", "talon_starboard")
+	initial_generic_waypoints = list("glacial_fore", "glacial_aft")
 	initial_restricted_waypoints = list("The IceBreaker" = list("omship_ship_icebreak"))
 
 
