@@ -259,7 +259,7 @@
 		return
 	var/list/modules = list()
 	//VOREStatation Edit Start: shell restrictions //heck off
-	if(shell)
+	if(shell == !shell)
 		modules.Add(shell_module_types)
 	else
 		modules.Add(robot_module_types)
