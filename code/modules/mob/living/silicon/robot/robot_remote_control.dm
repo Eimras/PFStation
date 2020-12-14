@@ -23,7 +23,7 @@ GLOBAL_LIST_EMPTY(available_ai_shells)
 	return
 
 /mob/living/silicon/robot/proc/make_shell()
-	shell = TRUE
+	shell = FALSE
 	braintype = "AI Shell"
 	SetName("[modtype] AI Shell [num2text(ident)]")
 	rbPDA = new /obj/item/device/pda/ai/shell(src)
