@@ -178,7 +178,7 @@
 		)
 
 	ai_shell_restricted = FALSE
-	ai_shell_allowed_levels = list(
+	ai_shell_allowed_levels = list(/*
 		Z_LEVEL_SURFACE_LOW,
 		Z_LEVEL_SURFACE_MID,
 		Z_LEVEL_SURFACE_HIGH,
@@ -190,7 +190,7 @@
 		Z_LEVEL_SOLARS,
 		Z_LEVEL_MISC,
 		Z_LEVEL_BEACH
-		)
+		*/)
 
 	belter_docked_z = 		list(Z_LEVEL_SPACE_HIGH)
 	belter_transit_z =	 	list(Z_LEVEL_MISC)
