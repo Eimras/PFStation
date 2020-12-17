@@ -1289,4 +1289,11 @@ I said no!
 		)
 	result = /obj/item/weapon/reagent_containers/food/snacks/gigapuddi/anger
 
-
+/datum/recipe/devilledegg//fuck go back
+	fruit = list("chili" = 1)
+	reagents = list("sodiumchloride" = 2, "mayo" = 5)
+	items = list(
+		/obj/item/weapon/reagent_containers/food/snacks/egg,
+		/obj/item/weapon/reagent_containers/food/snacks/egg
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/devilledegg
