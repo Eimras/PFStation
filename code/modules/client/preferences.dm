@@ -400,15 +400,15 @@ datum/preferences
 	if(S)
 		dat += "<b>Select a character slot to load</b><hr>"
 		var/name
-		var/nickname //luke mong edit
+		var/nickname //vorestation edit - This set appends nicknames to the save slot
 		for(var/i=1, i<= config.character_slots, i++)
 			S.cd = "/character[i]"
 			S["real_name"] >> name
-			S["nickname"] >> nickname //luke mong edit
+			S["nickname"] >> nickname //vorestation edit
 			if(!name)	name = "Character[i]"
 			if(i==default_slot)
 				name = "<b>[name]</b>"
-			dat += "<a href='?src=\ref[src];changeslot=[i]'>[name][nickname ? " ([nickname])" : ""]</a><br>" // Awoo I hate making comments like this, it gets pretty messy, totally should use git blame to see modifications by others!
+			dat += "<a href='?src=\ref[src];changeslot=[i]'>[name][nickname ? " ([nickname])" : ""]</a><br>" //vorestation edit
 
 	dat += "<hr>"
 	dat += "</center></tt>"
