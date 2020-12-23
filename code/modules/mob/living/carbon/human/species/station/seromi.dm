@@ -54,7 +54,7 @@
 //	short_sighted = 1
 	gluttonous = 1
 	blood_volume = 400
-	hunger_factor = 0.2
+	hunger_factor = 0.1
 
 	ambiguous_genders = TRUE
 
