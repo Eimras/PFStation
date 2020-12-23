@@ -7,14 +7,16 @@
 	var/url			// URL to load song from
 	var/title		// Song title
 	var/artist		// Song's creator
+	var/genre		// Song genre
 	var/duration	// Song length in deciseconds
 	var/secret		// Show up in regular playlist or secret playlist?
 	var/lobby		// Be one of the choices for lobby music?
 
-/datum/track/New(var/url, var/title, var/duration, var/artist = "", var/secret = 0, var/lobby = 0)
+/datum/track/New(var/url, var/title, var/duration, var/artist = "", var/genre = "", var/secret = 0, var/lobby = 0)
 	src.url = url
 	src.title = title
 	src.artist = artist
+	src.genre = genre
 	src.duration = duration
 	src.secret = secret
 	src.lobby = lobby
@@ -26,7 +28,7 @@
 	return str
 
 /datum/track/proc/toTguiList()
-	return list("ref" = "\ref[src]", "title" = title, "artist" = artist, "duration" = duration)
+	return list("ref" = "\ref[src]", "title" = title, "artist" = artist, "genre" = genre, "duration" = duration)
 
 
 // Global list holding all configured jukebox tracks
@@ -52,11 +54,15 @@ var/global/list/all_lobby_tracks = list()
 		if(!isnum(entry["duration"]))
 			warning("[jukebox_track_file] entry [entry]: bad or missing 'duration'")
 			continue
+		if(!istext(entry["genre"]))
+			warning("[jukebox_track_file] entry [entry]: bad or missing 'genre'")
+			continue
 		var/datum/track/T = new(entry["url"], entry["title"], entry["duration"])
 		if(istext(entry["artist"]))
 			T.artist = entry["artist"]
 		T.secret = entry["secret"] ? 1 : 0
 		T.lobby = entry["lobby"] ? 1 : 0
+		T.genre = entry["genre"]
 		all_jukebox_tracks += T
 		if(T.lobby)
 			all_lobby_tracks += T

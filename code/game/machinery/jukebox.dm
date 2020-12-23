@@ -32,6 +32,10 @@
 	var/max_queue_len = 3						// How many songs are we allowed to queue up?
 	var/list/queue = list()
 	//VOREStation Add End
+	var/selected_genre = "All" //Define and set default genre
+	//List available genres
+	var/list/genres = list("All", "Classical and Orchestral", "Country and Western", "Disco, Funk, Soul, and R&B", "Electronic", "Folk and Indie", "Hip-Hop and Rap", "Jazz", "Metal", "Pop", "Rock")
+
 	var/datum/track/current_track
 	var/list/datum/track/tracks = list(
 		new/datum/track("Beyond", 'sound/ambience/ambispace.ogg'),
@@ -222,8 +226,12 @@
 		data["current_track"] = current_track.toTguiList()
 	data["percent"] = playing ? min(100, round(world.time - media_start_time) / current_track.duration) : 0;
 
+	data["selected_genre"] = selected_genre
+
 	var/list/tgui_tracks = list()
 	for(var/datum/track/T in tracks)
+		if(T.genre != selected_genre && selected_genre != "All")
+			continue
 		tgui_tracks.Add(list(T.toTguiList()))
 	data["tracks"] = tgui_tracks
 
@@ -239,6 +247,10 @@
 			if(istype(T))
 				current_track = T
 				StartPlaying()
+			return TRUE
+		if("change_genre")
+			var/new_genre = input("Choose Genre", "Genre Selection") in genres
+			selected_genre = new_genre
 			return TRUE
 		if("loopmode")
 			var/newval = text2num(params["loopmode"])
