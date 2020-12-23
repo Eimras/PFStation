@@ -15,6 +15,7 @@ export const Jukebox = (props, context) => {
     current_track,
     percent,
     tracks,
+    selected_genre,
   } = data;
 
   return (
@@ -45,6 +46,13 @@ export const Jukebox = (props, context) => {
                 disabled={!playing}
                 onClick={() => act("stop")}>
                 Stop
+              </Button>
+            </LabeledList.Item>
+            <LabeledList.Item label="Genre">
+              <Button
+                icon="bars"
+                onClick={() => act("change_genre")}>
+                {selected_genre}
               </Button>
             </LabeledList.Item>
             <LabeledList.Item label="Loop Mode">
