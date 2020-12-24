@@ -106,8 +106,13 @@
 				current_track = tracks[newTrackIndex]
 			if(JUKEMODE_RANDOM)
 				var/previous_track = current_track
+				var/list/rando_tracks = list()
+				for(var/datum/track/Tr in tracks)
+					if(Tr.genre != selected_genre && selected_genre != "All")
+						continue
+					rando_tracks.Add(list(Tr))
 				do
-					current_track = pick(tracks)
+					current_track = pick(rando_tracks)
 				while(current_track == previous_track && tracks.len > 1)
 			if(JUKEMODE_REPEAT_SONG)
 				current_track = current_track
