@@ -9,6 +9,7 @@ aruis - Diona
 aruis - Protean
 aruis - Xenochimera
 azmodan412 - Xenochimera
+beyondmylife - Protean
 bothnevarbackwards - Diona
 bricker98 - Protean
 cgr - Protean
@@ -27,6 +28,7 @@ jademanique - Xenochimera
 khanivore - Protean
 killjaden - Protean
 ktccd - Diona
+liache - Black-Eyed Shadekin
 magpiemayhem - Vox
 marco_barko - Protean
 mewchild - Diona
@@ -68,6 +70,7 @@ timidvi - Diona
 trikonei - Protean
 varonis - Xenochimera
 verkister - Xenochimera
+verysoft - Black-Eyed Shadekin
 vitoras - Protean
 voidalynx - Protean
 wickedtemp - Shadekin Empathy
