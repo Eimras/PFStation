@@ -841,12 +841,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tether/surfacebase/medical/paramed)
-"abp" = (
-/obj/item/weapon/storage/secure/safe{
-	pixel_y = 32
-	},
-/turf/simulated/floor/wood,
-/area/tether/surfacebase/medical/mentalhealth)
 "abq" = (
 /turf/simulated/floor/wood,
 /area/tether/surfacebase/medical/mentalhealth)
@@ -1228,10 +1222,6 @@
 "acb" = (
 /turf/simulated/mineral,
 /area/rnd/testingroom)
-"acc" = (
-/obj/structure/flora/ausbushes/genericbush,
-/turf/simulated/floor/grass,
-/area/tether/surfacebase/medical/mentalhealth)
 "acd" = (
 /obj/structure/table/rack,
 /obj/item/device/suit_cooling_unit{
@@ -33383,6 +33373,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/tether/surfacebase/surface_one_hall)
+"goR" = (
+/obj/item/weapon/storage/secure/safe{
+	pixel_y = 32
+	},
+/obj/machinery/camera/network/medbay,
+/turf/simulated/floor/wood,
+/area/tether/surfacebase/medical/mentalhealth)
 "gud" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
@@ -35665,6 +35662,11 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/tether/surfacebase/surface_one_hall)
+"oiv" = (
+/obj/structure/flora/ausbushes/genericbush,
+/obj/machinery/camera/network/medbay,
+/turf/simulated/floor/grass,
+/area/tether/surfacebase/medical/mentalhealth)
 "okO" = (
 /obj/machinery/door/airlock{
 	name = "Visitation";
@@ -51555,7 +51557,7 @@ aad
 aad
 aan
 aan
-abp
+goR
 abq
 acY
 adB
@@ -52691,7 +52693,7 @@ aad
 aad
 aad
 aan
-acc
+oiv
 acI
 adm
 aan
