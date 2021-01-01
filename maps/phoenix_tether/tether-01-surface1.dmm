@@ -841,12 +841,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tether/surfacebase/medical/paramed)
-"abp" = (
-/obj/item/weapon/storage/secure/safe{
-	pixel_y = 32
-	},
-/turf/simulated/floor/wood,
-/area/tether/surfacebase/medical/mentalhealth)
 "abq" = (
 /turf/simulated/floor/wood,
 /area/tether/surfacebase/medical/mentalhealth)
@@ -1228,10 +1222,6 @@
 "acb" = (
 /turf/simulated/mineral,
 /area/rnd/testingroom)
-"acc" = (
-/obj/structure/flora/ausbushes/genericbush,
-/turf/simulated/floor/grass,
-/area/tether/surfacebase/medical/mentalhealth)
 "acd" = (
 /obj/structure/table/rack,
 /obj/item/device/suit_cooling_unit{
@@ -19175,23 +19165,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/rnd/hallway)
-"aFZ" = (
-/obj/structure/table/glass,
-/obj/effect/floor_decal/borderfloor{
-	dir = 4
-	},
-/obj/machinery/computer/guestpass{
-	dir = 8;
-	pixel_x = 25
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/lightgrey/border{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/tether/surfacebase/lowernorthhall)
 "aGa" = (
 /turf/simulated/wall,
 /area/tether/surfacebase/cargostore)
@@ -35917,6 +35890,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/tether/surfacebase/security/weaponsrange)
+"phE" = (
+/obj/structure/flora/ausbushes/genericbush,
+/obj/machinery/camera/network/medbay,
+/turf/simulated/floor/grass,
+/area/tether/surfacebase/medical/mentalhealth)
 "pjs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green,
 /obj/machinery/alarm{
@@ -37032,6 +37010,24 @@
 "uiK" = (
 /turf/simulated/wall,
 /area/tether/surfacebase/security/weaponsrange)
+"upC" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/borderfloor{
+	dir = 4
+	},
+/obj/machinery/computer/guestpass{
+	dir = 8;
+	pixel_x = 25
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/lightgrey/border{
+	dir = 4
+	},
+/obj/machinery/camera/network/medbay,
+/turf/simulated/floor/tiled,
+/area/tether/surfacebase/lowernorthhall)
 "uqH" = (
 /obj/structure/railing{
 	dir = 4
@@ -37324,6 +37320,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/rnd/hallway)
+"vmb" = (
+/obj/item/weapon/storage/secure/safe{
+	pixel_y = 32
+	},
+/obj/machinery/camera/network/medbay,
+/turf/simulated/floor/wood,
+/area/tether/surfacebase/medical/mentalhealth)
 "vCb" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/plating,
@@ -51555,7 +51558,7 @@ aad
 aad
 aan
 aan
-abp
+vmb
 abq
 acY
 adB
@@ -51999,7 +52002,7 @@ aah
 aah
 aef
 aFb
-aFZ
+upC
 aGJ
 aHq
 aef
@@ -52691,7 +52694,7 @@ aad
 aad
 aad
 aan
-acc
+phE
 acI
 adm
 aan
