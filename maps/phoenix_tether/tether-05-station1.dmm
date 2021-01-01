@@ -15159,24 +15159,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/secondary)
-"aBT" = (
-/obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/maintenance/command{
-	req_one_access = list(17)
-	},
-/obj/machinery/door/blast/regular{
-	closed_layer = 10;
-	density = 0;
-	dir = 8;
-	icon_state = "pdoor0";
-	id = "secondary_bridge_blast";
-	layer = 1;
-	name = "Secondary Command Office Blast Doors";
-	opacity = 0;
-	open_layer = 1
-	},
-/turf/simulated/floor,
-/area/bridge/secondary/teleporter)
 "aBU" = (
 /obj/machinery/door/airlock{
 	name = "Unit 2"
@@ -35387,7 +35369,7 @@ ayH
 aza
 ayR
 ayR
-aBT
+awC
 ail
 aDY
 acQ
